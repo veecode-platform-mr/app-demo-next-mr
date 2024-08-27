@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "app-demo-next-mr"
+  description: "app-demo-next-mr"
+  annotations:
+    github.com/project-slug: veecode-platform-mr/app-demo-next-mr
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "group:default/demo"
